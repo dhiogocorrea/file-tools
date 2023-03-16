@@ -6,7 +6,7 @@ from interfaces.movecopy import open_window as open_window_movecopy
 
 
 # Alterar a data de expiração conforme necessidade e gerar novo executável
-EXPIRATION_DATE = datetime.strptime('20/02/2023 00:00:00', '%d/%m/%Y %H:%M:%S')
+EXPIRATION_DATE = datetime.strptime('20/04/2023 00:00:00', '%d/%m/%Y %H:%M:%S')
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))

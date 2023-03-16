@@ -12,7 +12,7 @@ if sys.platform == "win32":
 
 setup(
     name="file-tools",
-    version="1.7",
+    version="1.8",
     description="File Tools",
     options={"build_exe": build_exe_options},
     executables=[Executable("main.py", base=base)],
